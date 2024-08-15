@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const Header = () => {
     const navOption=<>
       <li><a>Item 1</a></li>
-            <Link to='/'> <li><a>home</a></li>  </Link>
+            <Link to='/'> <li className="text-base text-red-700 font-bold" ><a>home</a></li>  </Link>
       <li><a>Item 3</a></li>
     
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar fixed z-10 text-3xl opacity-61 max-w-screen-xl  text-white bg-black">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
