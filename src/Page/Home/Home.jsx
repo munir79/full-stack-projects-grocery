@@ -1,5 +1,6 @@
 import Banner from "../Banner/Banner";
 import Catagorey from "./Catagorey/Catagorey";
+import PopularMenu from "./PopularMenu/PopularMenu";
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
         
             <Banner></Banner>
             <Catagorey></Catagorey>
+            <PopularMenu></PopularMenu>
         </div>
     );
 };
